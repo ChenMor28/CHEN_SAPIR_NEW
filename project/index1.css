@@ -1,0 +1,287 @@
+#t1{
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    left: 35%;
+    font-size: 25px;
+    text-align: center;
+}
+
+img {
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+iframe{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {background-image: url("https://images.pexels.com/photos/1268877/pexels-photo-1268877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Amatic SC', cursive;
+
+
+}
+
+
+#t2{
+
+    background: rgba(255,255,255, 0.5);
+    position: absolute;
+    width:15%;
+    top:2100px;
+    left:900px;
+    height: 350px;
+    right:500px;
+    text-align: center;
+    direction: rtl;
+
+}
+
+#t4{
+    position: absolute;
+    width:15%;
+    top:2450px;
+    left:900px;
+    height: 350px;
+    right:500px;
+    text-align: center;
+    direction: rtl;
+}
+
+#maps{
+    position: absolute;
+    right:800px;
+    left: 500px;
+    top:2100px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    top: 900px;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+#text{
+    text-align: center;
+}
+
+#t3{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    margin-bottom: 500px;
+    top:1900px;
+    left: 35%;
+    font-family: 'Amatic SC', cursive;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(214, 214, 231);
+}
+footer p a:hover{
+    text-decoration: none;
+}
+
+
+.formZone{
+    background-color: rgba(234, 237, 247, 0.8);
+    border: 0px solid rgba(224, 229, 247, 0.1);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.formZone h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.main h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.main p.content{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    color: rgba(26, 24, 24,1);
+}
+header{
+    text-align: center;
+}
+header img {
+    height: 350px;
+    width: 400px;
+}
+.content{
+    font-size: 16px;
+}
+#pic1 {
+    width: 300px;
+    height: 180px;
+}
+#pict{
+    margin-top: 10px;
+    background-image: url("images/pic1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 210px;
+
+}
+
+#pic-contant{
+    color:#fff;
+    font-size: 40px;
+    position: relative;
+    bottom: -70px;
+}
+
+#left-arrow{
+    font-size: 30px;
+    text-align: center;
+
+}
+#right-arrow{
+    font-size: 30px;
+    text-align: center;
+
+}
+#pic-text{
+
+
+}
+#pic-text span{
+    font-size: 20px;
+
+}
+
+.gallery{
+    padding-top: 30px;
+
+
+}
+td{
+
+}
+.secondm{
+    padding-bottom: 20px;
+}
+#contact-link{
+    color: #007bff;
+}
+.secondm h2 {
+    text-align: center;
+}
+img.icons{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+.iconend {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.modal-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.85);
+    position: absolute;
+    position: fixed;
+    top:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    width: 700px;
+    height: 440px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+
+}
+.modal-text{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-right: 35px;
+
+}
+.modal-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+#author{
+    width: 290px;
+    height: 340px;
+}
+#modal-close{
+    position: absolute;
+    top:-15px;
+    right:5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    header img {
+        height: 250px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    #pict{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 450px;
+
+    }
+    .gallery{
+        padding-top: 10px;
+        padding-left: 25px;
+    }
+    #pic-contant{
+        color:#fff;
+        font-size: 40px;
+        position: relative;
+        bottom: -110px;
+    }
+}
+
+.main{
+    background-color: rgba(234, 237, 247, 0.5);
+    border: 0px solid rgba(224, 229, 247, 0.1);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+
+}
+
+textarea.form-control{
+    text-align: right;
+    height: 150px;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button type="button" onclick=t1.forEach(bgcolor=getRandomColor())>Click Me!</button>
+
+<table id="t1">
+    <tr>
+        <th id="l1">s1</th>
+        <th id="l2">s2</th>
+        <th id="l3">s3</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<script>
+    var table = document.getElementById("myTable").rows;
+    var y;
+    for(i = 0; i < 4; i++)
+    {    for(j = 0; j < 4; j++)
+        {
+            y = table[i].cells;
+            y[j].innerHTML = getRandomColor();
+        }
+    }
+</script>
+
+<script>
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF'.split('');
+        var color = '#';
+        for (var i = 0; i < 6; i++ ) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+</script>
+
+<br>
+<br>
+</body>
+</html>
